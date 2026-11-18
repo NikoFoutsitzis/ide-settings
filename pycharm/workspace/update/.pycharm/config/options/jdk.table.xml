@@ -5,15 +5,6 @@
       <name value="Python"/>
       <type value="Python SDK"/>
       <homePath value="$[IDE_HOME]/software/python/bin/python@if-windows('.exe')"/>
-      <roots>
-        <classPath>
-          <root type="composite"/>
-        </classPath>
-        <sourcePath>
-          <root type="composite"/>
-        </sourcePath>
-      </roots>
-      <additional/>
     </jdk>
   </component>
 </application>
