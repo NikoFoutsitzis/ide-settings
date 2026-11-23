@@ -4,7 +4,7 @@
     <jdk version="2" merge:id="./jdk/name[@value='Python']/.." merge:strategy="override">
       <name value="Python"/>
       <type value="Python SDK"/>
-      <homePath value="$[IDE_HOME]/software/python/bin/python@if-windows('.exe')"/>
+      <homePath value="$[IDE_HOME]/software/python/@if-windows('scripts/python.exe')@if-unix('bin/python')"/>
     </jdk>
   </component>
 </application>
